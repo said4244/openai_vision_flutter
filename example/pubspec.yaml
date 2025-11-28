@@ -1,0 +1,30 @@
+name: vision_test_app
+description: App to test OpenAI Vision package
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Option 1: Local package (during development)
+  openai_vision_flutter:
+    path: ../../openai_vision_flutter
+  
+  # Option 2: Git package
+  # openai_vision_flutter:
+  #   git:
+  #     url: https://github.com/yourusername/openai_vision_flutter.git
+  #     ref: main
+  
+  # Option 3: Published package
+  # openai_vision_flutter: ^1.0.0
+  
+  # Required dependencies
+  image_picker: ^1.0.7
+  flutter_dotenv: ^5.1.0
+
+flutter:
+  assets:
+    - .env    # Don't forget this!
