@@ -10,7 +10,7 @@ dependencies:
   
   # Option 1: Local package (during development)
   openai_vision_flutter:
-    path: ../../openai_vision_flutter
+    path: ../
   
   # Option 2: Git package
   # openai_vision_flutter:

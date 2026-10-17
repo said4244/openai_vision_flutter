@@ -1,9 +1,9 @@
 name: openai_vision_flutter
 description: A Flutter package for easy integration with OpenAI's Vision API using GPT-4o-mini.
 version: 1.0.0
-homepage: https://github.com/yourusername/openai_vision_flutter
-repository: https://github.com/yourusername/openai_vision_flutter
-issue_tracker: https://github.com/yourusername/openai_vision_flutter/issues
+homepage: https://github.com/said4244/openai_vision_flutter
+repository: https://github.com/said4244/openai_vision_flutter
+issue_tracker: https://github.com/said4244/openai_vision_flutter
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

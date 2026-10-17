@@ -29,3 +29,38 @@ migrate_working_dir/
 .flutter-plugins
 .flutter-plugins-dependencies
 build/
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+!.example.env
+env.list
+*.login
+
+# Generated environments, caches, and runtime output
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pid
+Thumbs.db
+counter.txt
+counter.db
+counter.db-*
+exports/
+
+# Flutter and Node build output
+.pub-cache/
+.pub/
+node_modules/
+.next/
+coverage/
+
+# Local credentials and machine-specific configuration
+
+# Generated environments, caches, and runtime output
+
+# Flutter and Node build output
